@@ -1,0 +1,10 @@
+a {
+  cursor: pointer;
+  transition: 0.3s;
+  text-decoration: none;
+}
+nav a.active,
+a.active {
+  color: #68a4c4;
+  font-weight: 600;
+}
