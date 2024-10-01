@@ -18,7 +18,7 @@ const About = () => {
           quibusdam quia assumenda numquam molestias.
         </p>
         <span className="flex justify-center gap-5 pb-6 pt-3 font-roboto">
-          <NavLink to="/home">Home</NavLink>|<NavLink href="#">About</NavLink>
+          <NavLink to="/">Home</NavLink>|<NavLink href="#">About</NavLink>
         </span>
       </div>
       <VideoSection bgColor="#fff"></VideoSection>

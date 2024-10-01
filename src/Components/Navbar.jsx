@@ -35,7 +35,7 @@ const Navbar = () => {
           </div>
           <ul className="hidden items-center space-x-10 font-poppins text-base font-[400] text-white md:me-14 md:flex">
             <li>
-              <NavLink to="/home">Home</NavLink>
+              <NavLink to="/">Home</NavLink>
             </li>
             <li>
               <NavLink to="/about">About</NavLink>
@@ -60,7 +60,7 @@ const Navbar = () => {
         {isMenuOpen ? (
           <ul className="flex-col items-center text-center font-poppins text-white md:flex md:hidden md:space-x-5">
             <li>
-              <NavLink to="/home">Home</NavLink>
+              <NavLink to="/">Home</NavLink>
             </li>
             <li>
               <NavLink to="/about">About</NavLink>

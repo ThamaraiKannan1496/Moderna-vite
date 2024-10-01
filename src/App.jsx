@@ -15,10 +15,8 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path="/Moderna-vite">
-          <Route path="/home" element={<Home />}></Route>
-          <Route path="/about" element={<About />}></Route>
-        </Route>
+        <Route path="/" element={<Home />}></Route>
+        <Route path="/about" element={<About />}></Route>
       </Routes>
     </>
   );
