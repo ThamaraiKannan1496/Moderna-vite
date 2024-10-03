@@ -6,6 +6,8 @@ import { ClientAbout } from "../Components/ClientAbout";
 import AboutClientsSlide from "../Components/AboutClientsSlide";
 import { HeadingsHome } from "../Components/HeadingsHome";
 import { AboutTestimonials } from "../Components/AboutTestimonials";
+import { TitleWithBorder } from "../Components/TitleWithBorder";
+import SkillSet from "./About/SkillSet";
 
 const About = () => {
   return (
@@ -19,6 +21,15 @@ const About = () => {
       <VideoSection bgColor="#fff"></VideoSection>
       <ClientAbout></ClientAbout>
       <AboutClientsSlide></AboutClientsSlide>
+      <TitleWithBorder
+        head="Our Skills"
+        para={`Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit`}
+      ></TitleWithBorder>
+      <SkillSet></SkillSet>
+      <TitleWithBorder
+        head="Testimonials"
+        para={`Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit`}
+      ></TitleWithBorder>
       <AboutTestimonials></AboutTestimonials>
       <NewsLetter></NewsLetter>
       <Footer></Footer>

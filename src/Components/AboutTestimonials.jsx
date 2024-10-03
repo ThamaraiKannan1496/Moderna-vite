@@ -3,9 +3,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/effect-fade";
 import { EffectFade, Pagination } from "swiper/modules";
-import { FaQuoteLeft } from "react-icons/fa";
 import { IoStar } from "react-icons/io5";
-import { FaQuoteRight } from "react-icons/fa";
 import Img1 from "../assets/img/testimonials/testimonials-1.jpg";
 import Img2 from "../assets/img/testimonials/testimonials-2.jpg";
 import Img3 from "../assets/img/testimonials/testimonials-3.jpg";
@@ -14,7 +12,7 @@ import Img5 from "../assets/img/testimonials/testimonials-5.jpg";
 
 export const AboutTestimonials = () => {
   return (
-    <>
+    <div className="pb-10">
       <Swiper
         slidesPerView={1}
         effect={"fade"}
@@ -153,6 +151,6 @@ export const AboutTestimonials = () => {
           </div>
         </SwiperSlide>
       </Swiper>
-    </>
+    </div>
   );
 };
