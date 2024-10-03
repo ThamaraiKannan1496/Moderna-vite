@@ -7,6 +7,7 @@ import NewsLetter from "../Components/NewsLetter";
 import VideoSection from "../Components/VideoSection";
 import "../index.css";
 import "../Components/DuplicateNavbar.scss";
+import { TitleWithBorder } from "../Components/TitleWithBorder";
 const Home = () => {
   return (
     <>
@@ -14,7 +15,12 @@ const Home = () => {
       <BannerSlide></BannerSlide>
       <CardSection></CardSection>
       <VideoSection bgColor="#F4F8FB"></VideoSection>
-      <FeaturesOne></FeaturesOne>
+      <TitleWithBorder
+        head="Features"
+        para={`Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+        consectetur velit`}
+      ></TitleWithBorder>
+      <FeaturesOne head="Features"></FeaturesOne>
       <NewsLetter></NewsLetter>
       <Footer></Footer>
     </>

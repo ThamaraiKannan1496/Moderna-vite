@@ -13,7 +13,7 @@ const Navbar = () => {
       <nav className="bg-[#1E4356] px-14 py-6">
         <div className="flex items-center justify-between">
           <Link
-            to="#"
+            to="/"
             className="font-raleway text-3xl font-bold tracking-wider text-white md:ms-14"
           >
             Moderna
@@ -44,7 +44,7 @@ const Navbar = () => {
               <NavLink to="/services">Services</NavLink>
             </li>
             <li>
-              <NavLink to="portfolio">Portfolio</NavLink>
+              <NavLink to="/portfolio">Portfolio</NavLink>
             </li>
             <li>
               <NavLink to="/team">Team</NavLink>
@@ -53,7 +53,7 @@ const Navbar = () => {
               <NavLink to="/blog">Blog</NavLink>
             </li>
             <li>
-              <NavLink to="/contac">Contact</NavLink>
+              <NavLink to="/contact">Contact</NavLink>
             </li>
           </ul>
         </div>

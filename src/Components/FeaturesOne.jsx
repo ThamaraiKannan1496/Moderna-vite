@@ -1,4 +1,3 @@
-import BorderLine from "./BorderLine";
 import featureone from "../assets/img/features-1.svg";
 import featuretwo from "../assets/img/features-2.svg";
 import featurethree from "../assets/img/features-3.svg";
@@ -7,14 +6,6 @@ import { BsCheckLg } from "react-icons/bs";
 function FeaturesOne() {
   return (
     <>
-      <h2 className="pb-2 pt-12 text-center font-raleway text-3xl font-bold capitalize text-[#1E4356]">
-        features
-      </h2>
-      <BorderLine></BorderLine>
-      <p className="pt-2 text-center font-roboto">
-        Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
-        consectetur velit
-      </p>
       <div className="mx-auto flex w-[88.5%] flex-col py-20 md:flex-row">
         <img
           data-aos="fade-up"

@@ -7,7 +7,7 @@ import {
 
 const Card = ({ icon, title, description }) => {
   return (
-    <div className="flex flex-col items-center rounded-lg bg-white p-6 text-center shadow-lg transition-shadow hover:shadow-xl">
+    <div className="flex flex-col items-center rounded-lg bg-white p-6 text-center shadow-lg transition-shadow hover:shadow-inherit  hover:border-[0.25px] transition duration-300 hover:border-sky-500">
       <div className="mb-4 flex justify-center">
         <div className="rounded-full bg-gray-100 p-4 text-3xl text-blue-600">
           {icon}
