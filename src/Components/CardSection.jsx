@@ -1,8 +1,8 @@
 import {
-  FaHeartbeat,
-  FaSignal,
   FaChalkboardTeacher,
   FaCubes,
+  FaHeartbeat,
+  FaSignal,
 } from "react-icons/fa";
 
 const Card = ({ icon, title, description }) => {

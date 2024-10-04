@@ -1,10 +1,10 @@
-import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
+import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
-import imageOne from "../assets/img/hero-bg.jpg";
 import imageTwo from "../assets/img/building.jpg";
+import imageOne from "../assets/img/hero-bg.jpg";
 function BannerSlide() {
   return (
     <>

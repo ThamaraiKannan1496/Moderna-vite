@@ -1,9 +1,9 @@
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/pagination";
-import "swiper/css/effect-fade";
-import { EffectFade, Pagination } from "swiper/modules";
 import { IoStar } from "react-icons/io5";
+import "swiper/css";
+import "swiper/css/effect-fade";
+import "swiper/css/pagination";
+import { EffectFade, Pagination } from "swiper/modules";
+import { Swiper, SwiperSlide } from "swiper/react";
 import Img1 from "../assets/img/testimonials/testimonials-1.jpg";
 import Img2 from "../assets/img/testimonials/testimonials-2.jpg";
 import Img3 from "../assets/img/testimonials/testimonials-3.jpg";

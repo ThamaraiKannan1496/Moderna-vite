@@ -1,6 +1,6 @@
+import { FaApple } from "react-icons/fa";
 import { GiSpiderWeb } from "react-icons/gi";
 import { ImAndroid } from "react-icons/im";
-import { FaApple } from "react-icons/fa";
 import { MdOutlineWifiTethering } from "react-icons/md";
 import "./TechnicalCard.scss";
 function TechnicalCard() {

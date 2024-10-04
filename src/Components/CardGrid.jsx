@@ -1,9 +1,9 @@
 import React from "react";
 import {
-  FaHeartbeat,
-  FaSignal,
   FaChalkboardTeacher,
   FaCubes,
+  FaHeartbeat,
+  FaSignal,
 } from "react-icons/fa";
 
 const Card = ({ icon, title, description, borderColor }) => {

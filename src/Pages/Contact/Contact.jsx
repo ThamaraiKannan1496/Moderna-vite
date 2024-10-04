@@ -1,11 +1,9 @@
-import Navbar from "../../Components/Navbar";
+import Footer from "../../Components/Footer";
 import { HeadingsHome } from "../../Components/HeadingsHome";
 import NewsLetter from "../../Components/NewsLetter";
-import Footer from "../../Components/Footer";
 const Contact = () => {
   return (
     <>
-      <Navbar></Navbar>
       <HeadingsHome
         head="Contact"
         para={`Esse dolorum voluptatum ullam est sint nemo et est ipsa porro placeat

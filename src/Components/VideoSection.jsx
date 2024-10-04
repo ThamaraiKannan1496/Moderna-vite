@@ -1,5 +1,5 @@
-import videoImg from "../assets/img/about.jpg";
 import { LiaCheckDoubleSolid } from "react-icons/lia";
+import videoImg from "../assets/img/about.jpg";
 function VideoSection({ bgColor }) {
   return (
     <>

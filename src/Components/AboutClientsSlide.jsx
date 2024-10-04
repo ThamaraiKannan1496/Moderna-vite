@@ -1,7 +1,7 @@
-import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/autoplay";
 import { Autoplay } from "swiper/modules";
+import { Swiper, SwiperSlide } from "swiper/react";
 // import { Autoplay } from "swiper";
 import client1 from "../assets/img/clients/client-1.png";
 import client2 from "../assets/img/clients/client-2.png";

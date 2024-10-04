@@ -1,6 +1,6 @@
 import { useState } from "react";
-import "./DuplicateNavbar.scss";
 import { Link, NavLink } from "react-router-dom";
+import "./DuplicateNavbar.scss";
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 

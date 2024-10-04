@@ -1,4 +1,3 @@
-import React from "react";
 import ProgressBarAbout from "./ProgressBarAbout";
 
 const skills = [

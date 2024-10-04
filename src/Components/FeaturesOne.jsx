@@ -1,8 +1,8 @@
+import { BsCheckLg } from "react-icons/bs";
 import featureone from "../assets/img/features-1.svg";
 import featuretwo from "../assets/img/features-2.svg";
 import featurethree from "../assets/img/features-3.svg";
 import featurefour from "../assets/img/features-4.svg";
-import { BsCheckLg } from "react-icons/bs";
 function FeaturesOne() {
   return (
     <>

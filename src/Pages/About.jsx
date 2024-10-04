@@ -1,18 +1,16 @@
-import Navbar from "../Components/Navbar";
-import VideoSection from "../Components/VideoSection";
-import NewsLetter from "../Components/NewsLetter";
-import Footer from "../Components/Footer";
-import { ClientAbout } from "../Components/ClientAbout";
 import AboutClientsSlide from "../Components/AboutClientsSlide";
-import { HeadingsHome } from "../Components/HeadingsHome";
 import { AboutTestimonials } from "../Components/AboutTestimonials";
+import { ClientAbout } from "../Components/ClientAbout";
+import Footer from "../Components/Footer";
+import { HeadingsHome } from "../Components/HeadingsHome";
+import NewsLetter from "../Components/NewsLetter";
 import { TitleWithBorder } from "../Components/TitleWithBorder";
+import VideoSection from "../Components/VideoSection";
 import SkillSet from "./About/SkillSet";
 
 const About = () => {
   return (
     <>
-      <Navbar></Navbar>
       <HeadingsHome
         head="About"
         para={`Esse dolorum voluptatum ullam est sint nemo et est ipsa porro placeat

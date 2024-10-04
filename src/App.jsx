@@ -1,15 +1,16 @@
-import { useEffect } from "react";
-import "./index.css";
-import Home from "./Pages/Home";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { useEffect } from "react";
 import { Route, Routes } from "react-router-dom";
+import Navbar from "./Components/Navbar";
+import "./index.css";
 import About from "./Pages/About";
-import Services from "./Pages/Services";
-import { Portfolio } from "./Pages/Portfolio/Portfolio";
 import { Blog } from "./Pages/Blog/Blog";
-import { Team } from "./Pages/Team/Team";
 import Contact from "./Pages/Contact/Contact";
+import Home from "./Pages/Home";
+import { Portfolio } from "./Pages/Portfolio/Portfolio";
+import Services from "./Pages/Services";
+import { Team } from "./Pages/Team/Team";
 function App() {
   useEffect(() => {
     AOS.init({
@@ -17,7 +18,8 @@ function App() {
     });
   }, []);
   return (
-    <>
+    <div className="App">
+      <Navbar></Navbar>
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/about" element={<About />}></Route>
@@ -27,7 +29,7 @@ function App() {
         <Route path="/team" element={<Team></Team>}></Route>
         <Route path="/contact" element={<Contact></Contact>}></Route>
       </Routes>
-    </>
+    </div>
   );
 }
 

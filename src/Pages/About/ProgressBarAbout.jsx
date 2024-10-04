@@ -1,4 +1,4 @@
-import { useSpring, animated } from "react-spring";
+import { animated, useSpring } from "react-spring";
 
 const ProgressBarAbout = ({ skill, percentage }) => {
   // Animating the width based on the percentage
