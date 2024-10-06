@@ -1,8 +1,18 @@
+import img1 from "../../assets/img/services-1.jpg";
+import img2 from "../../assets/img/services-2.jpg";
+import img3 from "../../assets/img/services-3.jpg";
+import img4 from "../../assets/img/services-4.jpg";
+
 export const PortfolioCards = () => {
   return (
-    <>
-      <div className="flex gap-5 flex-col  md:flex-row w-[88.5%] mx-auto md:w-1/2 rounded-lg overflow-hidden group">
-        <div className="relative bg-service1 bg-center h-[450px] bg-cover bg-no-repeat w-full transition-transform duration-500 group-hover:scale-105 overflow-hidden">
+    <div className="w-[90%] mx-auto">
+      <div className="flex gap-10 flex-col flex-wrap md:flex-row  ">
+        <div className="relative overflow-hidden w-full  md:w-6/12">
+          <img
+            src={img1}
+            alt="images"
+            className="rounded-xl block w-full bg-cover  h-[450px] transition-transform duration-500 hover:scale-105"
+          />
           <div className="absolute bottom-0 left-0 flex items-center justify-between p-10">
             <div className="text-center text-[#68A4C4] bg-white bg-opacity-85 rounded-lg  p-8 font-roboto hover:bg-opacity-100 transition duration-150 ease-in">
               <a
@@ -18,7 +28,12 @@ export const PortfolioCards = () => {
             </div>
           </div>
         </div>
-        <div className="relative bg-service2 bg-center h-[450px] bg-cover bg-no-repeat w-full transition-transform duration-500 group-hover:scale-105 overflow-hidden">
+        <div className="relative overflow-hidden w-full   md:w-6/12">
+          <img
+            src={img2}
+            alt="images"
+            className="rounded-xl block w-full bg-cover  h-[450px] transition-transform duration-500 hover:scale-105"
+          />
           <div className="absolute bottom-0 left-0 flex items-center justify-between p-10">
             <div className="text-center text-[#68A4C4] bg-white bg-opacity-85 rounded-lg  p-8 font-roboto hover:bg-opacity-100 transition duration-150 ease-in">
               <a
@@ -34,7 +49,12 @@ export const PortfolioCards = () => {
             </div>
           </div>
         </div>
-        <div className="relative bg-service3 bg-center h-[450px] bg-cover bg-no-repeat w-full transition-transform duration-500 group-hover:scale-105 overflow-hidden">
+        <div className="relative overflow-hidden w-full md:w-6/12">
+          <img
+            src={img3}
+            alt="images"
+            className="rounded-xl block w-full bg-cover  h-[450px] transition-transform duration-500 hover:scale-105"
+          />
           <div className="absolute bottom-0 left-0 flex items-center justify-between p-10">
             <div className="text-center text-[#68A4C4] bg-white bg-opacity-85 rounded-lg  p-8 font-roboto hover:bg-opacity-100 transition duration-150 ease-in">
               <a
@@ -50,7 +70,12 @@ export const PortfolioCards = () => {
             </div>
           </div>
         </div>
-        <div className="relative bg-service4 bg-center h-[450px] bg-cover bg-no-repeat w-full transition-transform duration-500 group-hover:scale-105 overflow-hidden">
+        <div className="relative overflow-hidden w-full md:w-6/12">
+          <img
+            src={img4}
+            alt="images"
+            className="rounded-xl block w-full bg-cover  h-[450px] transition-transform duration-500 hover:scale-105"
+          />
           <div className="absolute bottom-0 left-0 flex items-center justify-between p-10">
             <div className="text-center text-[#68A4C4] bg-white bg-opacity-85 rounded-lg  p-8 font-roboto hover:bg-opacity-100 transition duration-150 ease-in">
               <a
@@ -68,6 +93,6 @@ export const PortfolioCards = () => {
         </div>
       </div>
       ;
-    </>
+    </div>
   );
 };
