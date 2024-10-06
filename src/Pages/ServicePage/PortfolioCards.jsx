@@ -5,7 +5,7 @@ import img4 from "../../assets/img/services-4.jpg";
 
 export const PortfolioCards = () => {
   return (
-    <div className="w-[90%] mx-auto">
+    <div className="w-[90%] mx-auto my-16">
       <div className="flex gap-10 flex-col flex-wrap md:flex-row  ">
         <div className="relative overflow-hidden w-full  md:w-6/12">
           <img
@@ -92,7 +92,6 @@ export const PortfolioCards = () => {
           </div>
         </div>
       </div>
-      ;
     </div>
   );
 };

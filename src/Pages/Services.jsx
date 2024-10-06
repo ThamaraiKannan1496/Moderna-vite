@@ -2,7 +2,9 @@ import CardSection from "../Components/CardSection";
 import Footer from "../Components/Footer";
 import { HeadingsHome } from "../Components/HeadingsHome";
 import NewsLetter from "../Components/NewsLetter";
+import { TitleWithBorder } from "../Components/TitleWithBorder";
 import { PortfolioCards } from "./ServicePage/PortfolioCards";
+import PricingService from "./ServicePage/PricingService";
 
 const Services = () => {
   return (
@@ -14,6 +16,13 @@ const Services = () => {
       ></HeadingsHome>
       <CardSection></CardSection>
       <PortfolioCards></PortfolioCards>
+      <TitleWithBorder
+        head="Pricing"
+        para={
+          "Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit"
+        }
+      ></TitleWithBorder>
+      <PricingService></PricingService>
       <NewsLetter></NewsLetter>
       <Footer></Footer>
     </>
