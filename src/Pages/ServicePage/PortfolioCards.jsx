@@ -6,8 +6,8 @@ import img4 from "../../assets/img/services-4.jpg";
 export const PortfolioCards = () => {
   return (
     <div className="w-[90%] mx-auto my-16">
-      <div className="flex flex-col flex-wrap md:flex-row gap-0 md:justify-start">
-        <div className="relative overflow-hidden w-full  md:w-6/12">
+      <div className="flex flex-col flex-wrap md:flex-row gap-[2%] justify-center gap-y-7">
+        <div className="relative overflow-hidden w-full  md:w-[48%]">
           <img
             src={img1}
             alt="images"
@@ -28,7 +28,7 @@ export const PortfolioCards = () => {
             </div>
           </div>
         </div>
-        <div className="relative overflow-hidden w-full   md:w-6/12">
+        <div className="relative overflow-hidden w-full   md:w-[48%]">
           <img
             src={img2}
             alt="images"
@@ -49,7 +49,7 @@ export const PortfolioCards = () => {
             </div>
           </div>
         </div>
-        <div className="relative overflow-hidden w-full md:w-6/12">
+        <div className="relative overflow-hidden w-full md:w-[48%]">
           <img
             src={img3}
             alt="images"
@@ -70,7 +70,7 @@ export const PortfolioCards = () => {
             </div>
           </div>
         </div>
-        <div className="relative overflow-hidden w-full md:w-6/12">
+        <div className="relative overflow-hidden w-full md:w-[48%]">
           <img
             src={img4}
             alt="images"

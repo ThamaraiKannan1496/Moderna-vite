@@ -114,11 +114,11 @@ const PortfolioTabs = () => {
       </div>
 
       {/* Product Flex Layout */}
-      <div className="flex flex-wrap justify-center gap-2">
+      <div className="flex flex-wrap justify-center gap-[2%] gap-y-8">
         {filteredProducts.map((product) => (
           <div
             key={product.id}
-            className="flex flex-col md:flex-row justify-center border rounded-lg overflow-hidden shadow-lg sm:w-1/2 lg:w-1/3"
+            className="flex flex-col md:flex-row  justify-center border rounded-lg overflow-hidden shadow-lg sm:w-[48%] lg:w-[32%]"
           >
             <img
               src={product.image}

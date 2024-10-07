@@ -2,6 +2,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import { Route, Routes } from "react-router-dom";
+import ScrollToTop from "react-scroll-to-top";
 import Navbar from "./Components/Navbar";
 import "./index.css";
 import About from "./Pages/About";
@@ -17,6 +18,7 @@ function App() {
       duration: 1000,
     });
   }, []);
+
   return (
     <div className="App">
       <Navbar></Navbar>
@@ -29,6 +31,11 @@ function App() {
         <Route path="/team" element={<Team></Team>}></Route>
         <Route path="/contact" element={<Contact></Contact>}></Route>
       </Routes>
+      <ScrollToTop
+        smooth
+        color="#000"
+        className="p-[5px] !bg-[#68A4C4]"
+      />
     </div>
   );
 }
