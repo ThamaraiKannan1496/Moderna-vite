@@ -12,7 +12,7 @@ const About = () => {
   return (
     <>
       <HeadingsHome
-        head="Abouts"
+        head="About"
         para={`Esse dolorum voluptatum ullam est sint nemo et est ipsa porro placeat
           quibusdam quia assumenda numquam molestias.`}
       ></HeadingsHome>
