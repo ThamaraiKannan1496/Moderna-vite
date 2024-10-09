@@ -63,7 +63,7 @@ export const TeamCard = () => {
   ];
   return (
     <>
-      <div className="flex justify-center flex-wrap w-[88.5%] mx-auto flex-col md:flex-row gap-[1.5%] my-20">
+      <div className="flex justify-center  flex-wrap w-[88.5%] mx-auto flex-col md:flex-row gap-[1.5%] my-20">
         {Members.map((val) => {
           return (
             <>
