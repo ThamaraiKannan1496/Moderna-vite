@@ -13,7 +13,7 @@ const Contact = () => {
       <div>
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15550.063233969462!2d77.6634368!3d13.00279115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1728458724140!5m2!1sen!2sin"
-          className="w-full h-[500px]"
+          className="w-full h-[450px]"
           loading="lazy"
         ></iframe>
       </div>
