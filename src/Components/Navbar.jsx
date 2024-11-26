@@ -7,7 +7,7 @@ const Navbar = () => {
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
-  console.log(isMenuOpen);
+
   return (
     <>
       <nav className="bg-[#1E4356] px-14 py-6">
